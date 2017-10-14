@@ -4,7 +4,7 @@
 ![Docker Stars](https://img.shields.io/docker/stars/osixia/openldap.svg)
 ![](https://images.microbadger.com/badges/image/osixia/openldap.svg)
 
-Latest release: 1.2.3-dev - OpenLDAP 2.4.46 -  [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/osixia/openldap/) 
+Latest release: 1.2.3-dev - OpenLDAP 2.4.47 -  [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/osixia/openldap/) 
 
 **A docker image to run OpenLDAP.**
 
@@ -59,7 +59,7 @@ Run OpenLDAP docker image:
 
 Do not forget to add the port mapping for both port 389 and 689 if you wish to access the ldap server from another machine.
 
-	docker run -p 389:389 -p 689:689 --name my-openldap-container --detach osixia/openldap:1.2.2
+	docker run -p 389:389 -p 689:689 --name my-openldap-container --detach osixia/openldap:1.2.3-dev
 
 Either command starts a new container with OpenLDAP running inside. Let's make the first search in our LDAP container:
 
